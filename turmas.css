@@ -1,0 +1,382 @@
+@media(min-width: 1200px){
+
+     /*TAGS gerais;multilocais; multofunções; que abrangem toda pagina web;*/
+
+
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body{
+        background-color: #ffffff;
+        font-family: arial;
+        color: #000000;
+        overflow-x: hidden;
+    }
+
+    /*FINAL*/
+
+
+    /*HEADER: CABECALHO DO SITE; MENU.*/
+
+   .menu{
+    max-width: 100%;
+    height: auto;
+    padding: 55px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .menu h1{
+        position: absolute;
+        top: 20px;
+        left: 5em;
+        display: flex;
+    }
+
+    .redes{
+        color: #2f5ddd;
+        display: inline;
+        left: 0px;
+
+    }
+
+    .navegacao ul li a{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+    .navegacao ul{
+        list-style-type: none;
+    }
+
+    .alignmenu{
+        position: absolute;
+        right: 10em;
+        display: flex;
+
+
+    }
+
+    .navegacao1 button:hover{
+        background-color: #ffffff;
+
+    }
+
+    .navegacao1 a:hover{
+        color: #0B2559;
+
+    }
+
+    .navegacao2 button:hover{
+        background-color: #ffffff;
+    }
+
+    .navegacao2 a:hover{
+        color: #0B2559;
+
+    }
+
+    .navegacao3 button:hover{
+        background-color: #0B2559;
+    }
+
+    .navegacao3 a:hover{
+        color: #ffffff;
+
+    }
+
+    nav{
+        padding: 2em;
+    }
+
+    .navegacao1 ul li a{
+        color: #ffffff;
+        padding: 30px;
+        right: 20px;
+    }
+
+    .navegacao2 ul li a{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .navegacao3 ul li a{
+        color: #0B2559;
+        font-size: 20px;
+    }
+
+    .quadronav1 button{
+        width: 100px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 25px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quadronav2 button{
+        width: 160px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 20px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quadronav3 button{
+        width: 120px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*FINAL*/
+
+    /*QUADRO: CONHEÇA!*/
+
+    .quadroprincipal{
+        width: 100%;
+        height: auto;
+        background-color: #0B2559;
+        padding: 4.4%;
+    }
+
+    .bv1{
+        font-family: arial;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 600%;
+       
+    }
+
+    .bv2{
+        font-family: arial;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 270%;
+
+    }
+
+    /*FINAL*/
+
+    /*NOME: COMPONENTES CURRICULARES*/
+    
+    .compcurri{
+        color: #0B2559;
+        font-size: 400%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        padding: 2%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /*FINAL*/
+
+    /*PARTE: MATERIAS*/
+
+    .orgquad{
+
+    display: flex;
+    justify-content: center;
+
+    }
+
+    .titulo1{
+
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    }
+
+    .espacow{
+
+    width: 100%;
+    height: 14px;
+    background-color: #ffffff;
+    display: flex;
+    
+    }
+
+  
+    .quadro1r{
+
+    width: 20em;
+    height: 35em;
+    background-color: #0B2559;
+    margin: 2%;
+    border-radius: 45px;
+
+    }
+
+    .quadro2r{
+    
+    width: 20em;
+    height: 35em;
+    background-color: #0B2559;
+    margin: 2%;
+    margin-top: 7%;
+    border-radius: 45px;
+
+    }
+
+    .quadro3r{
+
+    width: 20em;
+    height: 35em;
+    background-color: #0B2559;
+    margin: 2%;
+    margin-top: 12%;
+    border-radius: 45px;
+
+    }
+
+    /*FINAL*/
+
+    /*BLOCO 5  e informações*/
+
+    .titublocofive{
+
+        color: #0B2559;
+        font-size: 400%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        padding: 7%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .divlocal{
+
+        padding-left: 5em;
+
+    }
+
+    .ladazul{
+
+        width: 25%;
+        height: 42em;
+        background-color: #0B2559;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;       
+        padding-top: 1.75em;
+
+    }
+
+    .topowhite{
+        
+        width: 84%;
+        height: 15%;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .topowhite img{
+
+        width: 90%;
+        
+    }
+
+    .letratamloc{
+        
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 2em;
+        display: flex;
+        align-items: center;
+        
+       
+
+    }
+
+    .letratam{
+
+        width: 50%;
+        font-size: 8em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+
+
+    /*FOOTER: AREA FINAL DO SITE; CONSIDERAÇÕES; DIREITOS AUTORAIS;*/
+   
+        .central2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+        }
+    
+        .quaddes{
+            width: 32em;
+            height: 6.5em;
+            background-color: #000000;
+            border-top-left-radius: 35px;
+            border-top-right-radius: 35px;
+    
+    
+        }
+    
+        .quadlet{
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 800;
+            margin-top: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .topfund{
+
+            margin-top: 0.35em;
+            width: 32em;
+            height: 2em;
+            background-color: #000000;
+            
+            
+        }
+       
+    /*FINAL*/
+
+
+
+}

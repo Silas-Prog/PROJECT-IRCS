@@ -1,0 +1,231 @@
+/*MEDIA QUERY: SMARTPHONE */
+
+@media(max-width: 768px){
+
+}
+
+/*FIM: MEDIA QUERY*/
+
+/*MEDIA QUERY: COMPUTER*/
+
+@media(min-width: 1200px){
+
+     /*TAGS gerais;multilocais; multifunções; que abrangem toda pagina web;*/
+
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body{
+        background-color: #fffafa;
+        font-family: arial;
+        color: #000000;
+        overflow-x: hidden;
+    }
+
+    /*FINAL*/
+
+    /*HEADER: CABECALHO DO SITE; MENU.*/
+
+    .menu{
+        max-width: 100%;
+        height: 7em;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: cent
+    }
+
+    .menu h1{
+        position: absolute;
+        top: 20px;
+        left: 5em;
+        display: flex;
+    }
+    
+    .redes{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #2f5ddd;
+        display: inline;
+        left: 0px;
+
+    }
+
+    .navegacao ul li a{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+    .navegacao ul{
+        list-style-type: none;
+    }
+
+    .alignmenu{
+        position: absolute;
+        right: 10em;
+        display: flex;
+
+    
+    }
+
+    .navegacao1 button:hover{
+        background-color: transparent;
+    }
+
+    .navegacao1 a:hover{
+        color: #0B2559;
+
+    }
+
+    .navegacao2 button:hover{
+        background-color: #0B2559;
+    }
+
+    .navegacao2 a:hover{
+        color: #ffffff;
+
+    }
+    
+    .navegacao3 button:hover{
+        background-color: #ffffff;
+    }
+
+    .navegacao3 a:hover{
+        color: #0B2559;
+
+    }
+
+    nav{
+        padding: 2em;
+    }
+
+    .navegacao1 ul li a{
+        color: #ffffff;
+        padding: 30px;
+        right: 20px;
+    }
+
+    .navegacao2 ul li a{
+        color: #0B2559;
+        font-size: 20px;
+    }
+
+    .quadronav1 button{
+        width: 100px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 25px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .quadronav2 button{
+        width: 160px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 20px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .quadronav3 button{
+        width: 120px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 20px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegacao3 ul li a{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /*FINAL*/
+
+    /*PAG: PROJETOS DO CURSO IRC*/
+
+    .quadroprincipal{
+        width: 100%;
+        height: 15em;
+        background-color: #0B2559;
+        padding: 40px;
+        
+    }
+
+    .bv1{
+        font-family: arial;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 85px;
+        
+
+    }
+    .detalhesbv1{
+
+        font-family: arial;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 36px;
+
+
+    }
+
+    /*FINAL*/
+
+}
+
+    /*FOOTER: AREA FINAL DO SITE; CONSIDERAÇÕES; DIREITOS AUTORAIS;*/
+   
+    .central2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quaddes{
+        width: 100%;
+        height: 10em;
+        background-color: #ffffff;
+        padding-bottom: 0;
+
+    }
+
+    .quadlet{
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        font-weight: 800;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topfund{
+        margin-top: 0.35em;
+        width: 32em;
+        height: 2em;
+        background-color: #000000;
+        
+    
+        
+    }
+   
+    /*FINAL*/
+
+/*FIM: MEDIA QUERY*/

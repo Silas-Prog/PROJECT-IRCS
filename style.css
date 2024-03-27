@@ -1,0 +1,920 @@
+/*MEDIA QUERY: VERSÃO SMARTPHONE*/
+
+@media(max-width: 768px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    
+    body{
+        background-color: #ffffff;
+
+    }
+    /*HEADER*/
+    .menu{
+        width: 100%;
+        height: 8em;
+        background-color: #ffffff;
+
+    }
+    .redes{
+        color:  #2f5ddd;
+        font-size: 92%;
+        font-family: arial;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+    }
+    .alignmenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navegacao nav{
+        padding-top: 7%;
+
+    }
+
+    .quadronav1{
+        padding-right: 2.5%;
+
+    }
+
+    .quadronav2{
+        padding-left: 2.5%;
+    }
+
+    .navegacao1 button:hover{
+        background-color: #0B2559;
+
+    }
+
+    .navegacao1 a:hover{
+        color: white;
+
+    }
+
+    .navegacao2 button:hover{
+        background-color: transparent;
+    }
+
+    .navegacao2 a:hover{
+        color: #0B2559;
+
+    }
+
+    .quadronav1 a{
+        color: #0B2559;
+
+    }
+
+    .quadronav2 a{
+        color: #ffffff;
+    }
+
+    .quadronav1 button{
+        width: 75px;
+        height: 33px;
+        border: 2px solid #0B2559;
+        border-radius: 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+
+    }
+    .quadronav2 button{
+        width: 110px;
+        height: 33px;
+        border: 2px solid #0B2559;
+        border-radius: 20px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .navegacao ul li a{
+        font-weight: bold;
+        font-family: arial;
+        font-size: 16px;
+        text-decoration: none;
+        display: flex;
+
+    }  
+
+    /*FINAL*/
+
+    /*SECTION: PAGINA VEM SER REDES!*/
+    .quadvemirc{
+        display: flex;
+        width: 100%;
+        height: 10em;
+        background-color: #0B2559;
+    }
+    .okayirc{
+        margin-block-start: 5%;
+        display: block;
+        align-items: center;
+        margin-left: 2em;
+    
+    }
+    .paragraf1irc{
+        font-family: arial;
+        font-size: 50px;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    .paragraf2irc{
+        display: block;
+        font-family: arial;
+        font-size: 30px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+
+    /*FINAL*/
+
+    /*ALUNOS ATV*/
+
+    .qdados{
+        width: 100%;
+        height: 11em;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quadna{
+        width: 85%;
+        height: 50%;
+        border-radius: 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .letrquad{
+        font-size: 180%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0B2559;
+        font-weight: 800;
+
+        animation-name: nomirc;
+        animation-duration: 20s;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;       
+
+    }
+
+    @keyframes nomirc{
+        10%{
+            color: #1a1ab1;
+
+        }
+        25%{
+            color: #03033d;
+
+        }        
+        40%{
+            color: #0f337c;
+
+        }       
+        55%{
+            color: #0000fa;
+
+        }        
+        70%{
+            color: #138dff;
+
+        }        
+        85%{
+            color: rgb(40, 40, 230);
+
+        }        
+
+    }
+
+        
+    /*PARAGRAFO: DIV; SOBRE O CURSO TECNICO DE REDES.*/
+
+    .qtext{
+        width: 100%;
+        height: 50%;
+        background-color: #183B59;
+
+    }
+
+    .qparagraf1{
+        font-size: 20px;
+        color: #ffffff;
+        font-family: arial;
+        padding: 20px; 
+
+    }
+
+    /*FINAL*/
+
+     /*LOGO IRC*/
+    .orgmagem img{
+        width: 50%;
+
+
+    }
+
+     .orgmagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    /*FINAL*/
+
+     /*FOOTER: AREA FINAL DO SITE; CONSIDERAÇÕES; DIREITOS AUTORAIS;*/
+   
+     .central2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quaddes{
+        width: 22em;
+        height: 5em;
+        background-color: #000000;
+        border-radius: 30px; 
+
+
+    }
+
+    .quadlet{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 800;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topfund{
+        margin-top: 0.40em;
+        width: 22em;
+        height: 2.5em;
+        background-color: #000000;
+        
+    
+        
+    }
+   
+    /*FINAL*/
+
+}
+
+/*FIM: MEDIA QUERY: VERSÃO SMARTPHONE*/
+
+/*MEDIA QUERY: VERSÃO TABLET*/
+
+@media(min-width: 769px) and (max-width:1199px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    
+    body{
+        background-color: #ffffff;
+
+    }
+    /*HEADER*/
+    .menu{
+        width: 100%;
+        height: 8em;
+        background-color: #ffffff;
+
+    }
+    .redes{
+        color:  #2f5ddd;
+        font-size: 92%;
+        font-family: arial;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+    }
+    .alignmenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navegacao nav{
+        padding-top: 7%;
+
+    }
+
+    .quadronav1{
+        padding-right: 2.5%;
+
+    }
+
+    .quadronav2{
+        padding-left: 2.5%;
+    }
+
+    .navegacao1 button:hover{
+        background-color: #0B2559;
+
+    }
+
+    .navegacao1 a:hover{
+        color: white;
+
+    }
+
+    .navegacao2 button:hover{
+        background-color: transparent;
+    }
+
+    .navegacao2 a:hover{
+        color: #0B2559;
+
+    }
+
+    .quadronav1 a{
+        color: #0B2559;
+
+    }
+
+    .quadronav2 a{
+        color: #ffffff;
+    }
+
+    .quadronav1 button{
+        width: 75px;
+        height: 33px;
+        border: 2px solid #0B2559;
+        border-radius: 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+
+    }
+    .quadronav2 button{
+        width: 110px;
+        height: 33px;
+        border: 2px solid #0B2559;
+        border-radius: 20px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .navegacao ul li a{
+        font-weight: bold;
+        font-family: arial;
+        font-size: 16px;
+        text-decoration: none;
+        display: flex;
+
+    }  
+
+    /*FINAL*/
+
+    /*SECTION: PAGINA VEM SER REDES!*/
+    .quadvemirc{
+        display: flex;
+        width: 100%;
+        height: 10em;
+        background-color: #0B2559;
+    }
+    .okayirc{
+        margin-block-start: 5%;
+        display: block;
+        align-items: center;
+        margin-left: 2em;
+    
+    }
+    .paragraf1irc{
+        font-family: arial;
+        font-size: 50px;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    .paragraf2irc{
+        display: block;
+        font-family: arial;
+        font-size: 30px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+
+    /*FINAL*/
+
+    /*ALUNOS ATV*/
+
+    .qdados{
+        width: 100%;
+        height: 11em;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quadna{
+        width: 85%;
+        height: 50%;
+        border-radius: 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .letrquad{
+        font-size: 180%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0B2559;
+        font-weight: 800;
+
+        animation-name: nomirc;
+        animation-duration: 20s;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;       
+
+    }
+
+    @keyframes nomirc{
+        10%{
+            color: #1a1ab1;
+
+        }
+        25%{
+            color: #03033d;
+
+        }        
+        40%{
+            color: #0f337c;
+
+        }       
+        55%{
+            color: #0000fa;
+
+        }        
+        70%{
+            color: #138dff;
+
+        }        
+        85%{
+            color: rgb(40, 40, 230);
+
+        }        
+
+    }
+
+        
+    /*PARAGRAFO: DIV; SOBRE O CURSO TECNICO DE REDES.*/
+
+    .qtext{
+        width: 100%;
+        height: 50%;
+        background-color: #183B59;
+
+    }
+
+    .qparagraf1{
+        font-size: 20px;
+        color: #ffffff;
+        font-family: arial;
+        padding: 20px; 
+
+    }
+
+    /*FINAL*/
+
+     /*LOGO IRC*/
+    .orgmagem img{
+        width: 50%;
+
+
+    }
+
+     .orgmagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    /*FINAL*/
+
+     /*FOOTER: AREA FINAL DO SITE; CONSIDERAÇÕES; DIREITOS AUTORAIS;*/
+   
+     .central2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quaddes{
+        width: 22em;
+        height: 5em;
+        background-color: #000000;
+        border-radius: 30px; 
+
+
+    }
+
+    .quadlet{
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 800;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topfund{
+        margin-top: 0.40em;
+        width: 22em;
+        height: 2.5em;
+        background-color: #000000;
+        
+    
+        
+    }
+   
+    /*FINAL*/
+
+}
+
+/*FIM: MEDIA QUERY: VERSÃO SMARTPHONE*/
+
+/*MEDIA QUERY: VERSÃO DESKTOP / COMPUTER*/
+
+@media(min-width: 1200px){
+
+     /*TAGS gerais;multilocais; multofunções; que abrangem toda pagina web;*/
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    .body{
+        background-color: #ffffff;
+        font-family: arial;
+        color: rgb(0, 0, 0);
+        overflow-x: hidden;
+    }
+
+    /*FINAL*/
+
+    /*HEADER: CABECALHO DO SITE; MENU.*/
+
+    .menu{
+        max-width: 100%;
+        height: 7em;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menulogo{
+        position: absolute;
+        left: 2%;
+    }
+
+    .menu h1{
+        font-family: arial;
+        position: absolute;
+        top: 20px;
+        left: 5em;
+        display: flex;
+    }
+    
+    .redes{
+        color: #2f5ddd;
+        display: inline;
+        left: 0px;
+
+    }
+
+    .navegacao ul li a{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+    .navegacao ul{
+        list-style-type: none;
+    }
+
+    .alignmenu{
+        position: absolute;
+        right: 10em;
+        display: flex;
+
+    
+    }
+
+    .navegacao1 button:hover{
+        background-color: #0B2559;
+
+    }
+
+    .navegacao1 a:hover{
+        color: #ffffff;
+
+    }
+
+    .navegacao2 button:hover{
+        background-color: #ffffff;
+    }
+
+    .navegacao2 a:hover{
+        color: #0B2559;
+
+    }
+
+    .navegacao3 button:hover{
+        background-color: #ffffff;
+    }
+
+    .navegacao3 a:hover{
+        color: #0B2559;
+
+    }
+
+    nav{
+        padding: 2em;
+    }
+
+    .navegacao1 ul li a{
+        color: #0B2559;
+        padding: 30px;
+        right: 20px;
+    }
+
+    .navegacao2 ul li a{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .navegacao3 ul li a{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .quadronav1 button{
+        width: 100px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 25px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .quadronav2 button{
+        width: 160px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 20px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quadronav3 button{
+        width: 120px;
+        height: 36px;
+        border: 3px solid #0B2559;
+        border-radius: 20px;
+        background-color: #0B2559;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*FINAL*/
+
+    /*QUADRO: VEM IRC,; AREAS INICIAIS*/
+
+    .quadvemirc{
+        display: flex;
+        width: 100%;
+        height: 20em;
+        background-color: #0B2559;
+    }
+    .okayirc{
+        margin-block-start: 4em;
+        display: block;
+        align-items: center;
+        margin-left: 7em;
+
+    }
+
+    .paragraf1irc{
+        font-family: arial;
+        font-size: 90px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .paragraf2irc{
+        display: block;
+        font-family: arial;
+        font-size: 40px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    /*FINAL*/
+
+    /*DADOS SOBRE O CURSO*/
+    
+    .qdados{
+        width: 100%;
+        height: 18em;
+        background-color: #0B2559;
+        padding-left: 4.7em;
+        padding-top: 0em;
+
+    }
+
+    .quadna{
+        width: 90%;
+        height: 15em;
+        background-color: #ffffff;
+        border-radius: 25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .letrquad{
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        color: #0B2559;
+        animation: colortext;
+        animation-duration: 15s;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+
+    }
+
+
+    @keyframes colortext {
+        20%{
+            color: #089db8;
+            font-size: 80px;
+        }
+        36%{
+            color: #0099ff;
+            font-size: 80px;
+            font-family: sans-serif;
+        }
+        54%{
+            color: #0f6096;
+            font-size: 70px;
+        }
+        75%{
+            color: #4848fd;
+            font-size: 80px;
+        }
+        89%{
+            color: #0B2559;
+            font-size: 70px;
+        }
+        90%{
+            color: #0B2559;
+            font-size: 75px;
+        }
+        100%{
+            color: #0B2559;
+            font-size: 80px;
+        }
+        
+    }
+
+    /*FINAL*/
+
+    /*PARAGRAFO: DIV; SOBRE O CURSO TECNICO DE REDES.*/
+
+    .qtext{
+        width: 100%;
+        height: 18em;
+        background-color: #183B59;
+        padding: 1.4em;
+        padding-left: 3.5em;
+        padding-right: 3.6em;
+
+    }
+
+    .qparagraf1{
+        font-size: 35px;
+        color: #ffffff;
+        font-family: arial;
+        padding: 20px; 
+        font-family: arial;
+        text-align: justify;
+    }
+
+    /*FINAL*/
+
+    /*LOGO IRC*/
+ 
+    .orgmagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    /*FINAL*/
+
+    /*FOOTER: AREA FINAL DO SITE; CONSIDERAÇÕES; DIREITOS AUTORAIS;*/
+   
+    .central2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .quaddes{
+        width: 32em;
+        height: 6.5em;
+        background-color: #000000;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+
+
+    }
+
+    .quadlet{
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topfund{
+        margin-top: 0.35em;
+        width: 32em;
+        height: 2em;
+        background-color: #000000;
+        
+    
+        
+    }
+   
+    /*FINAL*/
+
+}
+
+/*FIM; MEDIA QUERY: VERSÃO DESKTOP / COMPUTER*/
